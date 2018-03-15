@@ -1,0 +1,325 @@
+* {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    color: #63458a;
+    margin: 0;
+    padding-bottom: 3%;
+}
+
+nav {
+    background-color: #63458a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0;
+    box-shadow: 5px -9px 3px #000
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.topbar img {
+    width: 35%;
+    padding: 1% 5%;
+    max-width: 200px;
+}
+
+nav div ul {
+    display: none;
+}
+
+.app {
+    display: inline;
+    text-align: right;
+}
+
+
+
+@media (min-width: 769px) {
+     nav {
+        width: 100%;    
+        padding: 5px;
+    }
+
+    nav > div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+    }
+    
+    nav div ul {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+    
+    nav div ul li {
+        text-decoration: none;
+        display: inline-block;
+        width: 25%;
+    }
+    
+    nav div ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .app {
+        display: none;
+    }
+} 
+
+header {
+    background: url(../img/bg-banner-claro.png);
+    background-size: cover;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-position: 46%;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:  white;
+    text-align: center;
+}
+
+header div > div {
+    padding: 5%;
+}
+
+header h1 {
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em 0.2em;
+    margin: 0 auto;
+    /* padding-top: 3%; */
+    font-size: 160%;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+    padding: 4%;
+}
+
+
+
+
+ @media (min-width: 769px) {
+    header {
+        min-height: 70vh;
+        flex-direction: row;
+        align-items: flex-end;
+        padding-top: 1%;
+        padding-left: 8%;
+    }
+
+    header div {
+        display: flex;
+        justify-content: flex-end;
+        text-align: left;
+        min-height: inherit;
+    }
+
+    header div > button {
+        margin: 0;
+    }
+
+    header h1 {
+        font-size: 450%;
+    }
+} 
+    .detalhes {
+        margin: 15%;
+        margin-top: 3%;
+
+    }
+
+    .detalhes h2 {
+        text-align: center;
+    }
+    .boxroxo {
+        background: #63458a;
+        width: 0%;
+        padding: 14%;
+    }
+
+    .detalhes > div {
+        display: flex;
+    }
+
+    .detalhes p {
+        color: #63458a;
+        font-size: 125%;
+        margin: 4%;
+
+    }
+
+   .bio h2 {
+       text-align: inherit;
+   }
+
+    }
+
+     .citação  p {
+        border-style: solid;
+        color: #63458a; 
+        padding: 25px 36px;
+        text-align: center;
+        font-size: 150%;    
+    }
+
+    .detalhes h2:nth-child(2) {
+        text-align: inherit;
+    }
+
+    .caixaroxa2 {
+        background: #63458a;
+        width: 75%;
+        padding: 15%;
+
+    }
+
+    .autora {
+        background: #e4b7e5;
+        padding: 4%;
+    }
+
+    .autora div {
+        padding-left: 35%;
+        display: flex;
+    }
+
+    .autora p {
+        padding: 2%;
+    }
+    .recomendacoes {
+        padding-left: 20%;
+    }
+    .recomendacoes h2 {
+        padding-left: 360px;
+    }
+
+    .boxrosa {
+        background: #b288c0;
+        padding: 75px;
+        width: 35%;
+    }
+    .boxrosa p {
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+    }
+
+    .boxrosa a {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .box1 {
+        display: flex;
+    }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-size: 70%;
+}
+
+footer div:nth-child(4) {
+    background-color: rgb(34, 34, 34);
+    display: block;
+    width: 100%;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    line-height: 24px;
+}
+
+footer p {
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 18px;
+}
+
+footer a {
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #b288c0;
+}
+
+footer div:nth-child(2) {
+    padding: 0 8%;
+    font-style: italic;
+    text-align: center;
+    font-size: 70%;
+}
+
+footer div:nth-child(2) > img {
+    width: 70%;
+}
+
+footer div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div:nth-child(3) > img {
+    width: 14%;
+    padding: 10px;
+}
+
+/* footer ddesktop */
+
+@media (min-width: 769px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    footer div:nth-child(4) {
+        display: block;
+        width: 100%;
+    }
+
+    footer div:nth-child(2) {
+        width: 27%;
+        padding: 0%;
+    }
+
+    footer div:nth-child(1) {
+        padding-right: 10%;
+    }
+}
